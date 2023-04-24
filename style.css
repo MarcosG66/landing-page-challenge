@@ -10,7 +10,7 @@
 
 
 /* default color variables */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 
 :root {
@@ -33,6 +33,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Lato', sans-serif;
+    
 }
 
 body{
@@ -60,6 +61,7 @@ header nav ul li a{
 header nav ul {
     display: flex;
     gap: 22px;
+    font-weight: bold;
     
 }
 
@@ -68,5 +70,33 @@ main .hero {
     background-color: var(--surface);
     margin: 32px 167px;
     text-align: center;
-    padding: 60px;
+    padding-top: 15px;
+    padding-bottom: 44px;
+}
+
+main .hero h1{
+    font-size: 25px;
+    margin: 20px;
+}
+
+main .hero p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+    padding: 0px 40px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+main .hero a {
+    color: var(--on-primary);
+    background-color: var(--primary);
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
 }
