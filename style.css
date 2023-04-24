@@ -10,6 +10,9 @@
 
 
 /* default color variables */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@400;700&display=swap');
+
+
 :root {
     --primary: #BB86FC;
     --primary-light: #D1C4FE;
@@ -27,4 +30,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+background-color: var(--background);
+
+
+}
+
+
+header {
+    background-color: var(--surface);
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 60px;
+    align-items: center;
+    padding-left: 78%;
+}
+
+header nav ul li a{
+    color: var(--on-surface);
+    font-size: 15px ;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 22px;
+    
+}
+
+main .hero {
+    color: var(--on-surface);
+    background-color: var(--surface);
+    margin: 32px 167px;
+    text-align: center;
+    padding: 60px;
 }
