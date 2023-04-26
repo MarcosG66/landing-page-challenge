@@ -68,7 +68,7 @@ header nav ul {
 main .hero {
     color: var(--on-surface);
     background-color: var(--surface);
-    margin: 32px 167px;
+    margin: 34px 30px 34px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 44px;
@@ -110,4 +110,28 @@ main .hero a:not(hover) {
     transition: 0.7s;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.container .box {
+    color: var(--on-background);
+    margin: 0 30px;
+}
+
+.container .box h2 {
+    margin-bottom: 15px;
+}
+
+.container .box p {
+    margin-bottom: 60px;
+}
+
+footer {
+    color: var(--on-surface);
+    background-color: var(--surface) ;
+    text-align: center;
+    font-size: 19px;
+    padding: 15px 0 30px;
+}
