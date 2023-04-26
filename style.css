@@ -32,7 +32,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, sans-serif;
     
 }
 
@@ -49,7 +49,7 @@ header {
     justify-content: space-between;
     padding: 19px 60px;
     align-items: center;
-    padding-left: 78%;
+    padding-left: 77%;
 }
 
 header nav ul li a{
@@ -81,7 +81,7 @@ main .hero h1{
 
 main .hero p {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin-bottom: 25px;
     padding: 0px 40px;
     font-weight: 400;
@@ -93,10 +93,21 @@ main .hero p {
 main .hero a {
     color: var(--on-primary);
     background-color: var(--primary);
-    padding: 10px 15px;
+    padding: 11px 15px;
     margin-top: 10px;
     border-radius: 4px;
-    font-family: 'lato', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
-    font-weight: bold;
 }
+
+main .hero a:hover {
+    background-color: var(--primary-light);
+    transition: 0.7s;
+}
+
+main .hero a:not(hover) {
+    background-color: var(--primary);
+    transition: 0.7s;
+}
+
+
