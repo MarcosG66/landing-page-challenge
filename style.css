@@ -97,7 +97,6 @@ main .hero a {
     margin-top: 10px;
     border-radius: 4px;
     font-family: Arial, sans-serif;
-    font-weight: 400;
 }
 
 main .hero a:hover {
@@ -125,7 +124,7 @@ main .hero a:not(hover) {
 }
 
 .container .box p {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 footer {
@@ -134,4 +133,35 @@ footer {
     text-align: center;
     font-size: 19px;
     padding: 15px 0 30px;
+
+}
+
+.Tabela {
+    color: var(--on-surface);
+}
+
+.Tabela table {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 1200px;
+    margin-bottom: 70px;
+    border-collapse: collapse;
+}
+
+.Tabela table th{
+    background-color: var(--surface);
+    padding: 20px 10px  20px 10px;
+}
+
+.Tabela h2 {
+margin-left: 30px;
+}
+
+.Tabela table td {
+    padding: 20px 10px  20px 10px;
+}
+
+table, th, td {
+    border: 1px solid var(--on-surface);
 }
